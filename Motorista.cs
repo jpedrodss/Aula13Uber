@@ -6,7 +6,7 @@ namespace Aula13Uber
         private string PlacaDoCarro { get; set; }
 
         public void AceitarPassageiro(string nome){
-            System.Console.WriteLine($"Você aceitou uma corrida para {LocalChegada}.");
+            System.Console.WriteLine($"Você aceitou uma corrida.");
         }
         public string ReceberPagamento(string statusCorrida){
             if(statusCorrida == "Finalizada."){

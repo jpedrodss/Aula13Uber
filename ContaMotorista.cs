@@ -1,6 +1,6 @@
 namespace Aula13Uber
 {
-    public class ContaMotorista : Motorista
+    public class ContaMotorista
     {
         public string agencia { get; set; }
         public string conta { get; set; }

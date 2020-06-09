@@ -1,6 +1,6 @@
 namespace Aula13Uber
 {
-    public class Cartao : Passageiro
+    public class Cartao
     {
         private string Titular { get; set; }
         private string NumeroDoCartao { get; set; }

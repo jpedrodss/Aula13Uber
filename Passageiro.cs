@@ -1,6 +1,6 @@
 namespace Aula13Uber
 {
-    public class Passageiro
+    public class Passageiro : Usuario
     {
         public string ProcurarMotorista(){
             return "Procurando motoristas disponíveis";

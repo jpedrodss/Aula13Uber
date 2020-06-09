@@ -17,8 +17,8 @@ namespace Aula13Uber
             return false;
         }
         public void Logout(){
-            System.Console.WriteLine("Logout feito com sucesso!"); 
             TokenLogin = "";
+            System.Console.WriteLine("Logout feito com sucesso!"); 
         }
     }
 }

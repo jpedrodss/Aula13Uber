@@ -5,17 +5,18 @@ namespace Aula13Uber
         public string agencia { get; set; }
         public string conta { get; set; }
 
+        /// <summary>
+        /// Cadastra uma conta bancária do motorista
+        /// </summary>
+        /// <returns>Mensagem informando sucesso no cadastro</returns>
         public string Cadastrar(){
             return "Conta cadastrada";
         }
-        public void Excluir(string resposta){
-            System.Console.WriteLine("Deseja excluir sua conta?");
-            resposta = System.Console.ReadLine();
-            if(resposta == "sim"){
+        /// <summary>
+        /// Exclui a conta bancária do motorista
+        /// </summary>
+        public void Excluir(){
             System.Console.WriteLine($"Sua conta: {conta} foi excluída.");
-            }else{
-                System.Console.WriteLine($"Sua conta: {conta} não foi excluída.");
-            }
         }
     }
 }

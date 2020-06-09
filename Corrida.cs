@@ -2,12 +2,16 @@ namespace Aula13Uber
 {
     public class Corrida
     {
-        private string LocalInicio { get; set; }
-        private string LocalChegada { get; set; }
-        private string StatusCorrida { get; set; }
+        public string LocalInicio { get; set; }
+        public string LocalChegada { get; set; }
+        public string StatusCorrida { get; set; }
         private string Motorista { get; set; }
         private string Passageiro { get; set; }
 
+        /// <summary>
+        /// Cancela a corrida solicitada
+        /// </summary>
+        /// <returns>Mensagem da corrida cancelada</returns>
         public string Cancelar(){
             return "Sua corrida foi cancelada";
         }

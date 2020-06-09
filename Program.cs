@@ -8,19 +8,24 @@ namespace Aula13Uber
         {
             
             Usuario user = new Usuario();
-            System.Console.WriteLine("Digite seu login:");
-            string login = Console.ReadLine();
+            // System.Console.WriteLine("Digite seu login:");
+            // string login = Console.ReadLine();
 
-            System.Console.WriteLine("Digite sua senha:");
-            string senha = Console.ReadLine();
+            // System.Console.WriteLine("\nDigite sua senha:");
+            // string senha = Console.ReadLine();
 
-            user.Login(login, senha);
+            // user.Login(login, senha);
 
-            if(user.TokenLogin != "" && user.TokenLogin != null){
-                System.Console.WriteLine("Logado com sucesso.");
-            }else{
-                System.Console.WriteLine("Usuário deslogado.");
-            }
+            // if(user.TokenLogin != "" && user.TokenLogin != null){
+            //     System.Console.WriteLine("Logado com sucesso.\n");
+            // }else{
+            //     System.Console.WriteLine("Usuário deslogado.\n");
+            // }
+
+            user.Nome = "João";
+
+            Motorista motorista = new Motorista();
+            System.Console.WriteLine(motorista.AceitarPassageiro(user.Nome));
         }
     }
 }

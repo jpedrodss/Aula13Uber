@@ -10,8 +10,8 @@ namespace Aula13Uber
         /// </summary>
         /// <param name="nome">Nome do passageiro</param>
         /// <returns>Mensagem informando sucesso em aceitar a corrida</returns>
-        public string AceitarPassageiro(string nome){
-            return "Você aceitou uma corrida.";
+        public string AceitarPassageiro(){
+            return $"Você aceitou uma corrida de ";
         }
         /// <summary>
         /// Verifica se a corrida está finalizada para que o motorista possa receber o pagamento
@@ -20,7 +20,7 @@ namespace Aula13Uber
         /// <returns>Mensagem se foi possível ou não receber o pagamento</returns>
         public string ReceberPagamento(string statusCorrida){
             if(statusCorrida == "Finalizada."){
-                return "Você recebeu o dinheiro da corrida!";
+                return "Você recebeu o pagamento da corrida!";
             }
 
             return "O pagamento será feito quando a corrida for finalizada.";

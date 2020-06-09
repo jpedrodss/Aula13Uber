@@ -10,7 +10,7 @@ namespace Aula13Uber
         /// </summary>
         /// <returns>Mensagem informando sucesso no cadastro</returns>
         public string Cadastrar(){
-            return "Conta cadastrada";
+            return "Conta cadastrada!";
         }
         /// <summary>
         /// Exclui a conta bancária do motorista
